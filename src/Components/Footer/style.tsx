@@ -30,18 +30,6 @@ export const FooterLikeAndTitleDiv = styled.div`
             }
         }
     }
-
-    @media only screen and (max-width: 990px) {
-        position: absolute;
-        top: -150px;
-
-        svg {
-            position: absolute;
-            right: 80px;
-            top: 3px;
-            height: 25px;
-        }
-    }
 `;
 
 export const MusicTitleDiv = styled.div`
@@ -50,7 +38,6 @@ export const MusicTitleDiv = styled.div`
     @media only screen and (max-width: 990px) {
         margin-left: 0;
     }
-    
 `;
 
 export const MusicTitleSpan = styled.span`
@@ -59,11 +46,6 @@ export const MusicTitleSpan = styled.span`
     margin-bottom: 5px;
     font-size: 20px;
     font-family: "GTEestiMedium";
-    
-    @media only screen and (max-width: 990px) {
-        margin-bottom: 10px;
-        font-size: 25px;
-    }
 `;
 
 export const MusicSingerSpan = styled.span`
@@ -98,11 +80,6 @@ export const FooterPlayerOptionsDiv = styled.div`
         margin-left: 30px;
         margin-right: 60px;
     }
-
-    @media only screen and (max-width: 620px) {
-        justify-content: flex-end;
-        width: 410px;
-    }
 `;
 
 export const FooterSoundAndMaximizeDiv = styled.div`
@@ -110,9 +87,5 @@ export const FooterSoundAndMaximizeDiv = styled.div`
 
     svg:nth-child(1) {
         margin-right: 80px;
-    }
-
-    @media only screen and (max-width: 620px) {
-        display: none;
     }
 `;
