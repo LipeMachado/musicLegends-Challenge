@@ -1,0 +1,85 @@
+import styled from 'styled-components';
+
+export const FooterContainerDiv = styled.div`
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 10%;
+    background-color: var(--purpleDark);
+`;
+
+export const FooterBoxDiv = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+`;
+
+export const FooterLikeAndTitleDiv = styled.div`
+    display: flex;
+    align-items: center;
+    
+    svg { 
+        color: var(--white);
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            path {
+                fill: var(--white);
+            }
+        }
+    }
+`;
+
+export const MusicTitleDiv = styled.div`
+    margin-left: 20px;
+`;
+
+export const MusicTitleSpan = styled.span`
+    display: block;
+    color: var(--white);
+    margin-bottom: 5px;
+    font-size: 20px;
+`;
+
+export const MusicSingerSpan = styled.span`
+    color: var(--gray);
+`;
+
+export const FooterPlayerOptionsDiv = styled.div`
+    color: var(--white);
+    display: flex;
+    align-items: center;
+
+    svg {
+        padding: 5px;
+    }
+
+    svg:nth-child(1) {
+        margin-right: 30px;
+    }
+
+    svg:nth-child(2) {
+        margin-right: 10px;
+    }
+
+    svg:nth-child(3) {
+        margin-right: 10px;
+        background-color: var(--purpleBackgroundPlay);
+        border-radius: 50%;
+    }
+
+    svg:nth-child(5) {
+        margin-left: 30px;
+        margin-right: 60px;
+    }
+`;
+
+export const FooterSoundAndMaximizeDiv = styled.div`
+    color: var(--white);
+
+    svg:nth-child(1) {
+        margin-right: 80px;
+    }
+`;
