@@ -5,6 +5,10 @@ import imageAvatar from '../../Assets/imageAvatar.jpeg'
 export const NavBarContainerDiv = styled.div`
     background-color: var(--purpleDark);
     padding: 15px 10%;
+
+    @media only screen and (max-width: 990px) {
+        background-color: transparent;
+    }
 `;
 
 export const NavBarBoxDiv = styled.div`
@@ -38,6 +42,20 @@ export const NavBarItensLinksDiv = styled.div`
             border-bottom: 2px solid var(--greenLight);
         }
     }
+
+    @media only screen and (max-width: 990px) {
+        display: none;
+    }
+`;
+
+export const NavBarItensMenuDiv = styled.div`
+    display: none;
+
+    @media only screen and (max-width: 990px) {
+        color: var(--white);
+        display: flex;
+        justify-content: flex-start;
+    }
 `;
 
 export const NavBarLogoDiv = styled.div`
@@ -51,6 +69,15 @@ export const NavBarLogoDiv = styled.div`
         font-family: "GTEestiLight";
         text-transform: uppercase;
     }
+
+    @media only screen and (max-width: 990px) {
+        padding: 0 0 0 0;
+        justify-content: center;
+
+        h1 {
+            font-size: 15px;
+        }
+    }
 `;
 
 export const NavBarProfileDiv = styled.div`
@@ -63,6 +90,14 @@ export const NavBarProfileDiv = styled.div`
         font-size: 18px;
         font-family: "GTEestiLight";
     }
+
+    @media only screen and (max-width: 990px) {
+        justify-content: center;
+
+        p {
+            display: none;
+        }
+    }
 `;
 
 export const NavBarProfilePhotoDiv = styled.div`
@@ -73,4 +108,10 @@ export const NavBarProfilePhotoDiv = styled.div`
     background-color: var(--gray);
     background-image: url(${imageAvatar});
     background-size: cover;
+
+    @media only screen and (max-width: 990px) {
+        width: 25px;
+        height: 25px;
+        margin-left: 0;
+    }
 `;
