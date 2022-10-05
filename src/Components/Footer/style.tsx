@@ -41,10 +41,12 @@ export const MusicTitleSpan = styled.span`
     color: var(--white);
     margin-bottom: 5px;
     font-size: 20px;
+    font-family: "GTEestiMedium";
 `;
 
 export const MusicSingerSpan = styled.span`
     color: var(--gray);
+    font-family: "GTEestiLight";
 `;
 
 export const FooterPlayerOptionsDiv = styled.div`

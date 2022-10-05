@@ -19,7 +19,7 @@ import {
     Play,
     ArrowClockwise,
     SpeakerHigh,
-    ArrowsOutSimple
+    ArrowsInSimple
 } from 'phosphor-react';
 
 const Footer: React.FC = () => {
@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
                     </FooterPlayerOptionsDiv>
                     <FooterSoundAndMaximizeDiv>
                         <SpeakerHigh size={30} />
-                        <ArrowsOutSimple size={30} />
+                        <ArrowsInSimple size={30} />
                     </FooterSoundAndMaximizeDiv>
                 </FooterBoxDiv>
             </FooterContainerDiv>

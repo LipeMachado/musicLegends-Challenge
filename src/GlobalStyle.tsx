@@ -1,7 +1,37 @@
 import { createGlobalStyle } from 'styled-components';
+import GTEestiBold from './Assets/Fonts/GTEestiProDisplay-Bold.ttf'
+import GTEestiLight from './Assets/Fonts/GTEestiProDisplay-Light.ttf'
+import GTEestiMedium from './Assets/Fonts/GTEestiProDisplay-Medium.ttf'
+import GTEestiRegular from './Assets/Fonts/GTEestiProDisplay-Regular.ttf'
+import GTEestiUtraBold from './Assets/Fonts/GTEestiProDisplay-UltraBold.ttf'
 
 export const GlobalStyle = createGlobalStyle`
     
+    @font-face {
+        font-family: "GTEestiBold";
+        src: url(${GTEestiBold});
+    }
+
+    @font-face {
+        font-family: "GTEestiLight";
+        src: url(${GTEestiLight});
+    }
+
+    @font-face {
+        font-family: "GTEestiMedium";
+        src: url(${GTEestiMedium});
+    }
+
+    @font-face {
+        font-family: "GTEestiRegular";
+        src: url(${GTEestiRegular});
+    }
+
+    @font-face {
+        font-family: "GTEestiUtraBold";
+        src: url(${GTEestiUtraBold});
+    }
+
     :root {
         --purpleDark: #14061F;
         --purpleDarKBlur: #14061fd4;

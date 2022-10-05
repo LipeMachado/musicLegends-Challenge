@@ -28,6 +28,8 @@ export const MainLogoLoLDiv = styled.div`
         margin-top: 10px;
         font-size: 24px;
         color: var(--gray);
+        font-family: "GTEestiLight";
+        letter-spacing: 3px;
     }
 `;
 
@@ -40,6 +42,7 @@ export const MainSliderDiv = styled.div`
         font-size: 20px;
         margin: 0 15px;
         color: var(--gray);
+        font-family: "GTEestiMedium";
     }
 
     svg {
