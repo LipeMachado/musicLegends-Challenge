@@ -50,6 +50,7 @@ export const MusicTitleDiv = styled.div`
     @media only screen and (max-width: 990px) {
         margin-left: 0;
     }
+    
 `;
 
 export const MusicTitleSpan = styled.span`
